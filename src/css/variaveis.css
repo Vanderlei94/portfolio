@@ -1,11 +1,12 @@
-:root {
-    --cor-primaria: #43bd8e;
-    --cor-secundaria: #FD6C22;    
-    --cor-branca: #fff;
-    --cor-fundo-escuro: #040203;    
-    --cor-fundo-cinza-escuro: #282828;
-    --cor-fundo-cinza-claro: #353535;    
-  }
+ :root {
+    --cor-primaria: #4682b4; 
+    --cor-secundaria: #6495ed; 
+    --cor-branca: #ffffff;
+    --cor-fundo-escuro: #082644; 
+    --cor-fundo-azul-escuro: #003366; 
+    --cor-fundo-azul-claro: #336699; 
+}
+  
     
   :root {
     --fonte-primaria: 'Poppins', sans-serif;
