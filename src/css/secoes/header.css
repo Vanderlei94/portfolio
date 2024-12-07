@@ -1,7 +1,7 @@
 .header {
     padding: 30px 15px;
-    background-color: var(--cor-fundo-azul-claro);
 }
+
 
 .header .logo {
     font-family: var(--fonte-secundaria);
@@ -24,8 +24,8 @@
     left: 50%;
     width: 100%;
     height: 100%;
-    border: 2px solid var(--cor-fundo-azul-escuro);
-    background: var(--cor-fundo-azul-escuro);
+    border: 1px solid rgba(0, 51, 102, 0.5);
+    background: rgba(0, 51, 102, 0.5);
     transform: translate(-50%, -50%);
     z-index: -1;
     clip-path: polygon(
@@ -44,7 +44,7 @@
 
 .header a:hover .logo {
     color: var(--cor-primaria);
-    border: 2px solid var(--cor-fundo-escuro);
+    border: 1px solid rgba(0, 51, 102, 0.5);
     clip-path: polygon(
         30% 0%, 
         70% 0%, 

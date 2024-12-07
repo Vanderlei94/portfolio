@@ -6,10 +6,16 @@ html {
     color: var(--cor-branca);
     font-weight: 300;
     scroll-behavior: smooth;
+    text-shadow: 
+    -1px -1px 0 #000, 
+    1px -1px 0 #000, 
+    -1px 1px 0 #000, 
+    1px 1px 0 #000;
   }
   
   body {
-    background-color: var(--cor-fundo-azul-escuro);
+    background: url(../imagens/Wallpaper-Portfolio.jpg) no-repeat center center fixed; 
+    background-size: cover;
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
