@@ -1,5 +1,9 @@
 .header {
     padding: 30px 15px;
+    background-color: rgba(51, 102, 153, 0.25);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -165,7 +169,7 @@
 
    .header nav ul {
         display: none;        
-        background-color: var(--cor-fundo-escuro);         
+        background-color: rgba(51, 102, 153, 0.25);         
         padding: 20px;       
     }
     

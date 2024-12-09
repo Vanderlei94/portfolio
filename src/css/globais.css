@@ -14,6 +14,7 @@ html {
   }
   
   body {
+    padding-top: 30px;
     background: url(../imagens/Wallpaper-Portfolio.jpg) no-repeat center center fixed; 
     background-size: cover;
     font-family: var(--fonte-primaria);

@@ -2,6 +2,7 @@
 .footer {
     margin-top: 7rem;
     text-align: center;
+    background-color: rgba(51, 102, 153, 0.25);
 }
 
 .footer .container {
