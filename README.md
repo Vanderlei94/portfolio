@@ -58,6 +58,6 @@ Aqui estão algumas das tecnologias e ferramentas com as quais trabalho:
 
 ## Contato
 Se quiser saber mais sobre meu trabalho ou colaborar em algum projeto, entre em contato:
-- **Email**: [seuemail@example.com](mailto:vanderiecas@icloud.com)
-- **LinkedIn**: [Seu Perfil no LinkedIn](https://www.linkedin.com/in/vanderlei-oliveira94/)
-- **GitHub**: [Seu Perfil no GitHub](https://github.com/Vanderlei94)
+- **Email**: [vanderleicas@icloud.com](mailto:vanderiecas@icloud.com)
+- **LinkedIn**: [Vanderlei Junior](https://www.linkedin.com/in/vanderlei-oliveira94/)
+- **GitHub**: [Vanderlei94](https://github.com/Vanderlei94)
