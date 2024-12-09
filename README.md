@@ -59,5 +59,5 @@ Aqui estão algumas das tecnologias e ferramentas com as quais trabalho:
 ## Contato
 Se quiser saber mais sobre meu trabalho ou colaborar em algum projeto, entre em contato:
 - **Email**: [vanderleicas@icloud.com](mailto:vanderiecas@icloud.com)
-- **LinkedIn**: [Vanderlei Junior](https://www.linkedin.com/in/vanderlei-oliveira94/)
+- **LinkedIn**: [Vanderlei Junior](https://www.linkedin.com/in/vanderleidev/)
 - **GitHub**: [Vanderlei94](https://github.com/Vanderlei94)
