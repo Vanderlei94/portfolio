@@ -27,7 +27,7 @@
 .habilidades .container-habilidades .informacoes:hover p,
 .habilidades .container-habilidades .informacoes:hover h3,
 .habilidades .container-habilidades .informacoes:hover .logo i{
-    color: var(--cor-primaria);
+    color: var(--cor-hoover-habilidades);
 }
 
 .habilidades .container-habilidades .informacoes h3 {
