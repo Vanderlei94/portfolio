@@ -1,258 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanderlei Junior - Desenvolvedor Frontend</title>
-
-  <link rel="stylesheet" href="src/css/font-awesome.css" />
-  <link rel="stylesheet" href="src/css/reset.css" />
-
-  <!-- Global -->
-  <link rel="stylesheet" href="src/css/globais.css" />
-  <link rel="stylesheet" href="src/css/variaveis.css" />
-  <link rel="stylesheet" href="src/css/secoes/header.css" />
-  <link rel="stylesheet" href="src/css/secoes/home.css" />
-  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
-  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
-  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
-  <link rel="stylesheet" href="src/css/secoes/footer.css" />
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-</head>
-
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row justify-content-between alinhar-itens-no-centro">
-        <a href="#">
-          <h1 class="logo">VJ</h1>
-        </a>
-        <nav>
-          <input id="menu-hamburguer" type="checkbox" />
-
-          <label for="menu-hamburguer">
-            <div class="menu">
-              <span class="hamburguer"></span>
-            </div>
-          </label>
-          <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <section class="home">
-    <div class="container">
-      <div class="row full-screen alinhar-itens-no-centro">
-        <div class="texto-home">
-          <p>Olá 🖖,</p>
-          <h1>Sou o Vanderlei Junior</h1>
-          <h2>Desenvolvedor Frontend</h2>
-
-          <div class="redes-sociais">
-            <a href="https://www.linkedin.com/in/vanderleidev/" class="outer-shadow" target="_blank"><i
-                class="fab fa-linkedin-in"></i></a>
-            <a href="https://wa.me/351935267788?text=Olá%21%20Entrei%20em%20contato%20através%20do%20seu%20Portfólio%2C%20gostaria%20de%20mais%20informações.
-            " class="outer-shadow" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://github.com/Vanderlei94" class="outer-shadow" target="_blank"><i
-                class="fab fa-github"></i></a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <section class="sobre-mim section" id="sobre-mim">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Sobre mim</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="imagem-sobre-mim">
-          <div class="img-box inner-shadow">
-            <img src="./src/imagens/perfil-portfolio.PNG" alt="foto sobre mim" class="outer-shadow" />
-          </div>
-        </div>
-        <div class="informacoes-sobre-mim">
-          <p>
-            <strong>Olá! Eu sou o Vanderlei Junior, dev em formação frontend!</strong>
-            Tecnologia é minha grande paixão, e tenho certeza de que posso agregar muito valor a qualquer time com
-            minhas habilidades e entusiasmo.
-          </p>
-
-          <p>
-            Adoro me desafiar com novos projetos e estou sempre disposto a aprender mais com os desafios que enfrento. Quando necessário, busco informações de qualidade em comunidades de desenvolvedores e referências confiáveis, como repositórios no Git, para enriquecer meu conhecimento e aprimorar minhas soluções. 😁
-          </p>
-
-          <p>
-            E mais! Sou um verdadeiro entusiasta de filmes, séries, animes e tudo que faz o mundo nerd ser tão incrível.
-            💜
-          </p>
-
-          <div class="botoes">
-            <a target="_blank" href="./documents/pdfs/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="habilidades section" id="habilidades">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Habilidades</h2>
-        </div>
-      </div>
-
-      <div class="container-habilidades">
-        <div class="informacoes javascript">
-          <div class="logo">
-            <i class="devicon devicon-javascript-plain" id="javascript"></i>
-          </div>
-          <h3>JavaScript</h3>
-          <p>Atualmente estou iniciando minha jornada com JavaScript, explorando seus conceitos fundamentais e aplicações práticas. Estou motivado a aprofundar meu conhecimento nesta poderosa linguagem de programação.</p>
-        </div>
-
-        <div class="informacoes html">
-          <div class="logo">
-            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
-          </div>
-          <h3>HTML5</h3>
-          <p>Domino os conceitos fundamentais do HTML5, utilizando suas tags e recursos semânticos para estruturar páginas web de forma clara e acessível.</p>
-        </div>
-
-        <div class="informacoes css">
-          <div class="logo">
-            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
-          </div>
-          <h3>CSS3</h3>
-          <p>Tenho experiência no uso de CSS3 para estilizar páginas web, criando layouts responsivos e visualmente atraentes, com destaque para o uso de Flexbox e animações.</p>
-        </div>
-
-        <div class="informacoes github">
-          <div class="logo">
-            <i class="devicon devicon-github-original" id="github"></i>
-          </div>
-          <h3>GitHub</h3>
-          <p>Estou familiarizado com o uso do GitHub para hospedar e compartilhar projetos, colaborar em equipes e organizar o controle de versões.</p>
-        </div>
-
-        <div class="informacoes git">
-          <div class="logo">
-            <i class="devicon devicon-git-plain" id="git"></i>
-          </div>
-          <h3>Git</h3>
-          <p>Possuo conhecimento prático no uso de Git, utilizando comandos básicos para gerenciar repositórios e manter o controle das versões do código.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="projetos section" id="projetos">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Meus projetos</h2>
-        </div>
-      </div>
-
-      <div class="container-projetos">
-        <div class="projeto">
-          <a href="https://vanderlei94.github.io/app-buscar-usuarios-github/" target="_blank">
-            <img src="./src/imagens/app-buscar-github.png" alt="Nome do projeto" />
-            <h3>App Buscar GitHub</h3>
-            <div class="informacoes-projeto">
-              <p>Desenvolvido usando JS, aplicação com objetivo de treinar a utilização de API REST, com foco no fecth de dados, exibindo informações do usuário do GitHub, como nome, bio, seguidores e repositórios. Aprimorando habilidades de APIs, organização do código.</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div>
-        
-        <div class="projeto">
-          <a href="https://vanderlei94.github.io/app-gerador-de-conselhos/" target="_blank">
-            <img src="./src/imagens/demo-advices.png" alt="Nome do projeto" />
-            <h3>Gerador de Conselhos Aleatórios</h3>
-            <div class="informacoes-projeto">
-              <p>Primeiro projeto desenvolvido com JS, ainda puro, sem utilização de bibliotecas como react. Interface simples, consumindo uma API que gera conselhos de forma aleatória cada vezes que clicar no dado.</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="projeto">
-          <a href="https://vanderlei94.github.io/preview-card-nft/" target="_blank">
-            <img src="./src/imagens/card-nft.gif" alt="NFT Card" />
-            <h3>Card NFT - Frontend Mentor</h3>
-            <div class="informacoes-projeto">
-              <p>Projeto feito para fixar os conhecimentos em HTML e CSS, treinando também a responsividade dos elementos. A solução envolveu o uso de pseudo-classes e pseudo-elementos para otimizar o hover.</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div>
-        
-        <div class="projeto">
-          <a href="https://vanderlei94.github.io/landing-page-com-grid-agencia/" target="_blank">
-            <img src="./src/imagens/agencia.gif" alt="Agencia XYZ" />
-            <h3>Landing Page de Agência</h3>
-            <div class="informacoes-projeto">
-              <p>Demonstração de uso das habilidades de CSS e HTML, onde mesmo sem uso do javascript, é possível realizar animações. Essa Landing page mostra isso!</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="projeto">
-          <a href="https://vanderlei94.github.io/projeto-pokedex/" target="_blank">
-            <img src="./src/imagens/pokedex.gif" alt="Pokedex" />
-            <h3>Pokedex - Pokedev</h3>
-            <div class="informacoes-projeto">
-              <p>Primeiro projeto realizado usando CSS e HTML, foi a partir desse projeto que decidir iniciar os estudos junto ao curso do Dev em Dobro, e onde estou aprendendo muito na áera de programação!</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="container-projetos">
-          <div class="projeto">
-            <a href="https://vanderlei94.github.io/portfolio/" target="_blank">
-              <img src="./src/imagens/portfolio-capa.png" alt="Nome do projeto" />
-              <h3>Portfólio</h3>
-              <div class="informacoes-projeto">
-                <p>Primeiro portfólio desenvolvido apenas com HTML e CSS, pronto para demostrar minhas habilidades nessa área.</p>
-                <p>🔗 Ver no GitHub Pages</p>
-              </div>
-            </a>
-          </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <h2>Me envie uma mensagem!</h2>
-      <div class="redes-sociais">
-        <a href="https://www.linkedin.com/in/vanderleidev/" class="outer-shadow" target="_blank"><i
-            class="fab fa-linkedin-in"></i></a>
-        <a href="https://wa.me/351935267788?text=Olá%21%20Entrei%20em%20contato%20através%20do%20seu%20Portfólio%2C%20gostaria%20de%20mais%20informações.
-        " class="outer-shadow" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://github.com/Vanderlei94" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
-      </div>
-    </div>
-    <div>
-      <a href="#" class="up-home"><i class="fas fa-space-shuttle"></i></a>
-      <a href="#"><p>Me leve ao topo!</p></a>
-    </div>
-  </footer>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanderlei Junior - Frontend Developer</title>
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel" src="src/js/app.jsx"></script>
+    <script type="text/babel">
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+  </body>
 </html>
