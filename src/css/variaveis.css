@@ -1,17 +1,17 @@
- :root {
-    --cor-primaria: #4682b4; 
-    --cor-secundaria: #256aea; 
-    --cor-branca: #ffffff;
-    --cor-fundo-escuro: #082644; 
-    --cor-fundo-azul-escuro: #003366;
-    --cor-hoover-habilidades:  #011627;
-    --cor-fundo-azul-claro: #336699; 
+:root {
+   --cor-primaria: #8a2be2;
+   --cor-secundaria: #ff66c4;
+   --cor-branca: #ffffff;
+   --cor-fundo-escuro: #120136;
+   --cor-fundo-azul-escuro: #1a003d;
+   --cor-hoover-habilidades:  #e1bee7;
+   --cor-fundo-azul-claro: #4c0070;
 }
-  
-    
-  :root {
-    --fonte-primaria: 'Poppins', sans-serif;
-    --fonte-secundaria: 'Raleway', sans-serif;
+
+
+ :root {
+   --fonte-primaria: 'Fira Code', monospace;
+   --fonte-secundaria: 'Poppins', sans-serif;
     --fonte-gigante: 4.5rem;
     --fonte-extra-grande: 3rem;
     --fonte-grande: 2.4rem;

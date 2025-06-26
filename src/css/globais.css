@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap");
 
 html {
   font-size: 62.5%;
@@ -10,14 +10,14 @@ html {
 
 body {
   padding-top: 30px;
-  background: linear-gradient(to right, #082644 , #0C3B60 , #155A87 , #1E76AE , #3495D3 , #87CEFA );
+  background: linear-gradient(to right, #120136, #20043f, #2c056a, #3d0a83, #50109a, #6a1ab6);
   background-size: cover;
   font-family: var(--fonte-primaria);
   font-size: var(--fonte-normal);
 }
 
 body.dark {
-  background: #082644;
+  background: #0a0020;
   color: var(--cor-branca);
 }
 
@@ -56,7 +56,7 @@ body.dark {
 }
 
 .redes-sociais a:hover {
-  color: var(--cor-primaria);
+  color: var(--cor-secundaria);
 }
 
 .outer-shadow {
@@ -82,6 +82,8 @@ body.dark {
   font-size: var(--fonte-gigante);
   font-weight: 500;
   text-transform: uppercase;
+  font-family: var(--fonte-secundaria);
+  text-shadow: 0 0 10px var(--cor-secundaria);
 }
 
 .botao {
@@ -90,9 +92,12 @@ body.dark {
   border-radius: 20px;
   transition: all .3s ease;
   background-color: var(--cor-primaria);
+  color: var(--cor-branca);
+  text-shadow: 0 0 5px var(--cor-secundaria);
 }
 
 .botao:hover {
   background-color: var(--cor-secundaria);
   color: var(--cor-branca);
+  text-shadow: 0 0 5px var(--cor-branca);
 }

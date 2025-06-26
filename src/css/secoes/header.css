@@ -1,6 +1,6 @@
 .header {
     padding: 30px 15px;
-    background-color: rgba(51, 102, 153, 0.75);
+    background-color: rgba(50, 0, 70, 0.75);
     position: fixed;
     top: 0;
     width: 100%;
@@ -11,6 +11,7 @@
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
     color: var(--cor-branca);
+    text-shadow: 0 0 10px var(--cor-secundaria);
     width: 65px;
     height: 65px;
     line-height: 55px;
@@ -47,8 +48,8 @@
 
 
 .header a:hover .logo {
-    color: var(--cor-primaria);
-    border: 1px solid rgba(0, 51, 102, 0.5);
+    color: var(--cor-secundaria);
+    border: 1px solid rgba(50, 0, 70, 0.5);
     clip-path: polygon(
         30% 0%, 
         70% 0%, 
@@ -78,7 +79,7 @@
 }
 
 .header nav ul li a:hover{
-    background-color: var(--cor-primaria);;
+    background-color: var(--cor-primaria);
     color: var(--cor-branca);
 }
 
@@ -93,7 +94,7 @@
 }
 
 .theme-toggle:hover {
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .header .menu{
