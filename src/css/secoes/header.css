@@ -82,6 +82,20 @@
     color: var(--cor-branca);
 }
 
+.theme-toggle {
+    background: none;
+    border: none;
+    color: var(--cor-branca);
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0 10px;
+    transition: color .3s ease;
+}
+
+.theme-toggle:hover {
+    color: var(--cor-primaria);
+}
+
 .header .menu{
     display: none;    
     width: 60px;

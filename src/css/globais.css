@@ -16,6 +16,11 @@ body {
   font-size: var(--fonte-normal);
 }
 
+body.dark {
+  background: #082644;
+  color: var(--cor-branca);
+}
+
 .container {
   max-width: 1140px;
   margin: auto;
