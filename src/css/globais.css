@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap");
 
 html {
@@ -10,14 +10,15 @@ html {
 
 body {
   padding-top: 30px;
-  background: linear-gradient(to right, #120136, #20043f, #2c056a, #3d0a83, #50109a, #6a1ab6);
+  background: linear-gradient(to bottom, var(--cor-fundo-escuro), var(--cor-fundo-azul-escuro));
   background-size: cover;
   font-family: var(--fonte-primaria);
   font-size: var(--fonte-normal);
+  color: var(--cor-branca);
 }
 
 body.dark {
-  background: #0a0020;
+  background: var(--cor-fundo-escuro);
   color: var(--cor-branca);
 }
 
