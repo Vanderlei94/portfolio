@@ -10,9 +10,9 @@
 .habilidades .container-habilidades .informacoes{
     max-width: 350px;
     padding: 40px 20px;
-    background-color: rgba(220, 220, 220, 0.3);
+    background-color: var(--cor-fundo-azul-claro);
     margin: 5px;
-    border-radius: 20px;    
+    border-radius: 20px;
 }
 
 .habilidades .container-habilidades .informacoes p,
@@ -42,5 +42,6 @@
 }
 
 .habilidades .container-habilidades .informacoes .logo i {
+    color: var(--cor-primaria);
     font-size: 8rem;
 }
