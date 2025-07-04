@@ -41,7 +41,7 @@ function Home() {
             <h2>Frontend Developer</h2>
             <div className="redes-sociais">
               <a href="https://www.linkedin.com/in/vanderleidev/" className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-linkedin-in"></i></a>
-              <a href="https://wa.me/351935267788?text=Hello%21%20I%20found%20your%20portfolio%20and%20would%20like%20more%20information." className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-whatsapp"></i></a>
+              <a href="https://wa.me/351935267788?text=Ol%C3%A1%2C%20gostei%20do%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20contratar%20seus%20servi%C3%A7os." className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-whatsapp"></i></a>
               <a href="https://github.com/Vanderlei94" className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-github"></i></a>
             </div>
           </div>
@@ -70,9 +70,10 @@ function About() {
             <p><strong>Hello! I am Vanderlei Junior, a frontend developer in training!</strong> Technology is my passion and I believe I can add a lot of value to any team with my skills and enthusiasm.</p>
             <p>I love challenging myself with new projects and I am always willing to learn more from the obstacles I face. When needed, I search for reliable information in developer communities and Git repositories to improve my solutions.</p>
             <p>Also, I am a big fan of movies, series, and everything nerdy.</p>
-            <div className="botoes">
-              <a target="_blank" href="./documents/pdfs/cv.pdf" className="botao outer-shadow" rel="noopener">View my CV</a>
-            </div>
+              <div className="botoes">
+                <a target="_blank" href="./documents/pdfs/cv.pdf" className="botao outer-shadow" rel="noopener">View my CV</a>
+                <a href="https://wa.me/351935267788?text=Ol%C3%A1%2C%20gostei%20do%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20contratar%20seus%20servi%C3%A7os." className="botao outer-shadow" target="_blank" rel="noopener">WhatsApp</a>
+              </div>
           </div>
         </div>
       </div>
@@ -243,7 +244,7 @@ function Footer() {
         <h2>Send me a message!</h2>
         <div className="redes-sociais">
           <a href="https://www.linkedin.com/in/vanderleidev/" className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-linkedin-in"></i></a>
-          <a href="https://wa.me/351935267788?text=Hello%21%20I%20found%20your%20portfolio%20and%20would%20like%20more%20information." className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-whatsapp"></i></a>
+          <a href="https://wa.me/351935267788?text=Ol%C3%A1%2C%20gostei%20do%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20contratar%20seus%20servi%C3%A7os." className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-whatsapp"></i></a>
           <a href="https://github.com/Vanderlei94" className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-github"></i></a>
         </div>
       </div>

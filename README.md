@@ -65,6 +65,7 @@ Here are some of the technologies and tools I work with:
 
 ## Contact
 If you want to know more about my work or collaborate on a project, contact me:
-- **Email**: [vanderleicas@icloud.com](mailto:vanderleicas@icloud.com)
+- **Email**: [vanderleicas@gmail.com](mailto:vanderleicas@gmail.com)
+- **WhatsApp**: [Message me](https://wa.me/351935267788?text=Ol%C3%A1%2C%20gostei%20do%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20contratar%20seus%20servi%C3%A7os.)
 - **LinkedIn**: [Vanderlei Junior](https://www.linkedin.com/in/vanderleidev/)
 - **GitHub**: [Vanderlei94](https://github.com/Vanderlei94)
