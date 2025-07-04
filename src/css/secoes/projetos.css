@@ -34,7 +34,7 @@
 
 .projetos .container-projetos .projeto .informacoes-projeto {
     padding: 20px 20px;
-    background-color: rgba(10, 25, 47, 0.9);
+    background-color: var(--cor-overlay);
     position: absolute;
     top: 0;
     width: 100%;

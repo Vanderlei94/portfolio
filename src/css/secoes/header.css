@@ -1,6 +1,6 @@
 .header {
     padding: 30px 15px;
-    background-color: rgba(10, 25, 47, 0.9);
+    background-color: var(--cor-overlay);
     position: fixed;
     top: 0;
     width: 100%;
@@ -150,7 +150,7 @@
 
    .header nav ul {
         display: none;
-        background-color: rgba(10, 25, 47, 0.9);
+        background-color: var(--cor-overlay);
         padding: 20px;
     }
     

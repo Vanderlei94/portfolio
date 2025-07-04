@@ -2,7 +2,7 @@
 .footer {
     margin-top: 7rem;
     text-align: center;
-    background-color: rgba(10, 25, 47, 0.5);
+    background-color: var(--cor-overlay-footer);
 }
 
 .footer .container {
