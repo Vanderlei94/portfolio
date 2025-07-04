@@ -15,10 +15,17 @@ Whenever necessary, I rely on trusted sources such as developer communities and 
 
 ## Skills
 Here are some of the technologies and tools I work with:
+- **JavaScript**: Currently learning and exploring its fundamental concepts.
+- **React**: Building interfaces with reusable components.
+- **TypeScript**: Adding static typing to JavaScript.
 - **HTML5**: Building semantic structures for web pages.
 - **CSS3**: Advanced styling with a focus on responsiveness and modern design.
-- **JavaScript**: Currently learning and exploring its fundamental concepts.
-- **Git and GitHub**: Version control and project collaboration.
+- **Tailwind CSS**: Utility-first framework for rapid UI development.
+- **Git**: Version control and project collaboration.
+- **PostgreSQL**: Managing relational databases.
+- **Docker**: Containerizing applications.
+- **Redux**: Predictable state management for JavaScript apps.
+- **Supabase**: Backend-as-a-Service built on PostgreSQL.
 
 ## Projects
 

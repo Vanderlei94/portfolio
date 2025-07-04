@@ -84,27 +84,57 @@ const skills = [
   {
     icon: 'devicon-javascript-plain',
     title: 'JavaScript',
-    description: 'I am starting my journey with JavaScript, exploring its basic concepts and applications. I am eager to deepen my knowledge in this powerful language.'
+    description: 'Currently learning and exploring its fundamental concepts.'
+  },
+  {
+    icon: 'devicon-react-original',
+    title: 'React',
+    description: 'Building interfaces with reusable components.'
+  },
+  {
+    icon: 'devicon-typescript-plain',
+    title: 'TypeScript',
+    description: 'Adding static typing to JavaScript.'
   },
   {
     icon: 'devicon-html5-plain-wordmark',
     title: 'HTML5',
-    description: 'I understand the fundamentals of HTML5 and use its semantic tags to structure pages clearly.'
+    description: 'Building semantic structures for web pages.'
   },
   {
     icon: 'devicon-css3-plain-wordmark',
     title: 'CSS3',
-    description: 'I use CSS3 to create responsive layouts and attractive designs with Flexbox and animations.'
+    description: 'Advanced styling with modern layouts and animations.'
   },
   {
-    icon: 'devicon-github-original',
-    title: 'GitHub',
-    description: 'I am familiar with GitHub for hosting and sharing projects, collaborating in teams, and organizing version control.'
+    icon: 'devicon-tailwindcss-original',
+    title: 'Tailwind CSS',
+    description: 'Utility-first framework for rapid UI development.'
   },
   {
     icon: 'devicon-git-plain',
     title: 'Git',
-    description: 'I have practical knowledge of Git and use basic commands to manage repositories and maintain version control.'
+    description: 'Version control and project collaboration.'
+  },
+  {
+    icon: 'devicon-postgresql-plain',
+    title: 'PostgreSQL',
+    description: 'Managing relational databases.'
+  },
+  {
+    icon: 'devicon-docker-plain',
+    title: 'Docker',
+    description: 'Containerizing applications.'
+  },
+  {
+    icon: 'devicon-redux-original',
+    title: 'Redux',
+    description: 'Predictable state management for JavaScript apps.'
+  },
+  {
+    icon: 'devicon-supabase-original',
+    title: 'Supabase',
+    description: 'Backend-as-a-Service built on PostgreSQL.'
   }
 ];
 
