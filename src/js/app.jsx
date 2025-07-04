@@ -41,7 +41,7 @@ function Home() {
             <h2>Frontend Developer</h2>
             <div className="redes-sociais">
               <a href="https://www.linkedin.com/in/vanderleidev/" className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-linkedin-in"></i></a>
-              <a href="https://wa.me/351935267788?text=Hello%21%20I%20found%20your%20portfolio%20and%20would%20like%20more%20information." className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-whatsapp"></i></a>
+              <a href="https://wa.me/351935267788?text=Ol%C3%A1%2C%20gostei%20do%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20contratar%20seus%20servi%C3%A7os." className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-whatsapp"></i></a>
               <a href="https://github.com/Vanderlei94" className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-github"></i></a>
             </div>
           </div>
@@ -70,9 +70,10 @@ function About() {
             <p><strong>Hello! I am Vanderlei Junior, a frontend developer in training!</strong> Technology is my passion and I believe I can add a lot of value to any team with my skills and enthusiasm.</p>
             <p>I love challenging myself with new projects and I am always willing to learn more from the obstacles I face. When needed, I search for reliable information in developer communities and Git repositories to improve my solutions.</p>
             <p>Also, I am a big fan of movies, series, and everything nerdy.</p>
-            <div className="botoes">
-              <a target="_blank" href="./documents/pdfs/cv.pdf" className="botao outer-shadow" rel="noopener">View my CV</a>
-            </div>
+              <div className="botoes">
+                <a target="_blank" href="./documents/pdfs/cv.pdf" className="botao outer-shadow" rel="noopener">View my CV</a>
+                <a href="https://wa.me/351935267788?text=Ol%C3%A1%2C%20gostei%20do%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20contratar%20seus%20servi%C3%A7os." className="botao outer-shadow" target="_blank" rel="noopener">WhatsApp</a>
+              </div>
           </div>
         </div>
       </div>
@@ -84,27 +85,57 @@ const skills = [
   {
     icon: 'devicon-javascript-plain',
     title: 'JavaScript',
-    description: 'I am starting my journey with JavaScript, exploring its basic concepts and applications. I am eager to deepen my knowledge in this powerful language.'
+    description: 'Currently learning and exploring its fundamental concepts.'
+  },
+  {
+    icon: 'devicon-react-original',
+    title: 'React',
+    description: 'Building interfaces with reusable components.'
+  },
+  {
+    icon: 'devicon-typescript-plain',
+    title: 'TypeScript',
+    description: 'Adding static typing to JavaScript.'
   },
   {
     icon: 'devicon-html5-plain-wordmark',
     title: 'HTML5',
-    description: 'I understand the fundamentals of HTML5 and use its semantic tags to structure pages clearly.'
+    description: 'Building semantic structures for web pages.'
   },
   {
     icon: 'devicon-css3-plain-wordmark',
     title: 'CSS3',
-    description: 'I use CSS3 to create responsive layouts and attractive designs with Flexbox and animations.'
+    description: 'Advanced styling with modern layouts and animations.'
   },
   {
-    icon: 'devicon-github-original',
-    title: 'GitHub',
-    description: 'I am familiar with GitHub for hosting and sharing projects, collaborating in teams, and organizing version control.'
+    icon: 'devicon-tailwindcss-original',
+    title: 'Tailwind CSS',
+    description: 'Utility-first framework for rapid UI development.'
   },
   {
     icon: 'devicon-git-plain',
     title: 'Git',
-    description: 'I have practical knowledge of Git and use basic commands to manage repositories and maintain version control.'
+    description: 'Version control and project collaboration.'
+  },
+  {
+    icon: 'devicon-postgresql-plain',
+    title: 'PostgreSQL',
+    description: 'Managing relational databases.'
+  },
+  {
+    icon: 'devicon-docker-plain',
+    title: 'Docker',
+    description: 'Containerizing applications.'
+  },
+  {
+    icon: 'devicon-redux-original',
+    title: 'Redux',
+    description: 'Predictable state management for JavaScript apps.'
+  },
+  {
+    icon: 'devicon-supabase-original',
+    title: 'Supabase',
+    description: 'Backend-as-a-Service built on PostgreSQL.'
   }
 ];
 
@@ -213,7 +244,7 @@ function Footer() {
         <h2>Send me a message!</h2>
         <div className="redes-sociais">
           <a href="https://www.linkedin.com/in/vanderleidev/" className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-linkedin-in"></i></a>
-          <a href="https://wa.me/351935267788?text=Hello%21%20I%20found%20your%20portfolio%20and%20would%20like%20more%20information." className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-whatsapp"></i></a>
+          <a href="https://wa.me/351935267788?text=Ol%C3%A1%2C%20gostei%20do%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20contratar%20seus%20servi%C3%A7os." className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-whatsapp"></i></a>
           <a href="https://github.com/Vanderlei94" className="outer-shadow" target="_blank" rel="noopener"><i className="fab fa-github"></i></a>
         </div>
       </div>
